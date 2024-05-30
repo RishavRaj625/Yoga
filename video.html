@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar using flexbox</title>
+</head>
+<style>
+    body{
+        background-color: #5cb85c;
+    }
+    span{
+        padding: 14px 12px;
+        margin: 12px 0px;
+        font-weight: bold;
+        font-size: 32px;
+    }
+    .btn{ 
+        color: #FF800080;
+        font-size: 22px;
+    }
+    
+
+    .item{
+        padding: 15px;
+        background-color: #f9f9f9;
+        border-radius: 12px;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+    }
+    
+
+   @media screen and (max-width: 1100px) {
+    .grid{
+        /* display: grid; */
+        grid-template-columns: 1fr;
+    }
+    
+    .item-lang video{
+        width: 300px;
+    }
+   
+   } 
+
+
+</style>
+<body>
+   
+    <main>
+            <div class="grid">
+
+                <div class="item">
+                    <div class="item-lang">
+                        <span>1. Tadasana (Mountain Pose):</span>
+                         <video src="36.mp4" controls autoplay loop muted width="500px" height="350px"></video>
+                    </div>
+                    <div class="btn">
+                        <p><strong style="color: black;">Benefits: </strong>Improves posture, balance, and body awareness.</p>
+                        <p><strong style="color: black;">Advantages: </strong>Foundation for all standing poses, strengthens core.</p>
+                        <p><strong style="color: black;">Symptoms: </strong>Poor posture, body aches, lack of coordination.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">
+                        <span>2. Adho Mukha Svanasana (Downward-Facing Dog):</span>
+                         <video src="30.mp4" controls  muted width="500px" height="350px"></video>
+                    </div>
+                    <div class="btn">
+                        <p><strong style="color: black;">Benefits: </strong>Stretches hamstrings, calves, spine, and shoulders, strengthens core and upper body.</p>
+                        <p><strong style="color: black;">Advantages: </strong>Improves circulation, energizes the body, relieves back pain.</p>
+                        <p><strong style="color: black;">Symptoms: </strong>Tight hamstrings, back pain, fatigue, poor circulation.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">
+                        <span>3. Vrikshasana (Tree Pose):</span>
+                         <video src="31.mp4" controls muted width="500px" height="350px"></video>
+                    </div>
+                    <div class="btn">
+                        <p><strong style="color: black;">Benefits: </strong>Improves balance, focus, and concentration.</p>
+                        <p><strong style="color: black;">Advantages: </strong>Strengthens ankles and core, promotes mental clarity.</p>
+                        <p><strong style="color: black;">Symptoms: </strong>Poor balance, anxiety, difficulty focusing.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">
+                        <span>4. Balasana (Child's Pose):</span>
+                         <video src="32.mp4" controls autoplay loop muted width="500px" height="350px"></video>
+                    </div>
+                    <div class="btn">
+                        <p><strong style="color: black;">Benefits: </strong>Releases tension in the lower back, neck, and shoulders, promotes relaxation.</p>
+                        <p><strong style="color: black;">Advantages: </strong>Restorative pose, calms the mind, aids digestion.</p>
+                        <p><strong style="color: black;">Symptoms: </strong>Stress, anxiety, back pain, neck pain, digestive issues.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">
+                        <span>5. Marjariasana (Cat-Cow Pose):</span>
+                         <video src="33.mp4" controls  muted width="500px" height="350px"></video>
+                    </div>
+                    <div class="btn">
+                        <p><strong style="color: black;">Benefits: </strong>Stretches and strengthens the spine, improves flexibility.</p>
+                        <p><strong style="color: black;">Advantages: </strong>Gentle movement for the spine, improves circulation.</p>
+                        <p><strong style="color: black;">Symptoms: </strong>Stiff back, neck pain, poor posture.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">
+                        <span>6. Bhujangasana (Cobra Pose):</span>
+                         <video src="34.mp4" controls  width="500px" height="350px"></video>
+                    </div>
+                    <div class="btn">
+                        <p><strong style="color: black;">Benefits: </strong>Opens the chest and shoulders, strengthens the back.</p>
+                        <p><strong style="color: black;">Advantages: </strong>Improves posture, energizes the body, alleviates back pain (gentle modification needed).</p>
+                        <p><strong style="color: black;">Symptoms: </strong>Rounded shoulders, hunchback posture, mild back pain.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">
+                        <span>7. Setu Bandhasana (Bridge Pose):</span>
+                         <video src="35.mp4" controls  muted width="500px" height="350px"></video>
+                    </div>
+                    <div class="btn">
+                        <p><strong style="color: black;">Benefits: </strong>Strengthens the hamstrings, glutes, and core, opens the chest.</p>
+                        <p><strong style="color: black;">Advantages: </strong>Improves flexibility, promotes relaxation, reduces fatigue.</p>
+                        <p><strong style="color: black;">Symptoms: </strong>Tight hamstrings, weak core, fatigue.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">
+                        <span>8. Utthita Trikonasana (Triangle Pose):</span>
+                         <video src="37.mp4" controls autoplay loop muted width="500px" height="350px"></video>
+                    </div>
+                    <div class="btn">
+                        <p><strong style="color: black;">Benefits: </strong>Stretches the sides of the body, improves hip and leg flexibility.</p>
+                        <p><strong style="color: black;">Advantages: </strong>Strengthens core and legs, improves balance</p>
+
+                        <p><strong style="color: black;">Symptoms: </strong>Tight hips, leg stiffness, poor balance.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-lang">
+                        <span>9. Running:</span>
+                         <video src="22.mp4" controls  muted width="500px" height="350px"></video>
+                    </div>
+                    <div class="btn">
+                        <p><strong style="color: black;">Benefits: </strong>Promotes deep relaxation, reduces stress and anxiety.</p>
+
+                        <p><strong style="color: black;">Advantages: </strong>Restorative pose, improves sleep quality, promotes mindfulness.</p>
+
+                        <p><strong style="color: black;">Symptoms: </strong>Stress, anxiety, insomnia, tension headaches.</p>
+                    </div>
+                </div>
+
+                
+            </div>
+    </main>
+    <script>
+       
+        // let boxes = document.getElementsByClassName("box")
+
+        let boxes = document.getElementsByClassName("btn") // First approach
+        // let boxes = document.querySelector(".container").children //Second approach
+
+        function getRandomColor(){
+            
+            // First Approach
+            let val1 = Math.floor(Math.random()*244)
+            let val2 = Math.floor(Math.random()*244) 
+            let val3 = Math.floor(Math.random()*244)
+            
+            // Second Approach
+        //    let val1 = Math.ceil(0 + Math.random()* 255)
+        //    let val2 =Math.ceil(0 + Math.random()* 255) 
+        //    let val3 = Math.ceil(0 + Math.random()* 255)
+
+
+           return `rgb(${val1}, ${val2}, ${val3})`
+        }
+        Array.from(boxes).forEach(e=>{
+            // e.style.backgroundColor = getRandomColor()
+            e.style.color = getRandomColor()
+        })
+    </script>
+</body>
+</html>
